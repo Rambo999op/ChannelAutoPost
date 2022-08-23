@@ -38,7 +38,7 @@ except:
 @datgbot.on(events.NewMessage(pattern="/start"))
 async def _(event):
     ok = await datgbot(GetFullUserRequest(event.sender_id))
-    await event.reply(f"Hi `{ok.user.first_name}`\n\nI am a channel auto forward bot. \n\n /About to know more.", buttons=[Button.url("🤖 Updates", url="https://t.me/movievillachat"), Button.url("♥️ Source", url="https://youtube.com/channel/UCAjLSt8ARs8e9AX014hoJtQ")], link_preview=False)
+    await event.reply(f"Hi `{ok.user.first_name}`\n\n𝐈 𝐚𝐦 𝐚 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝐚𝐮𝐭𝐨 𝐟𝐨𝐫𝐰𝐚𝐫𝐝 𝐛𝐨𝐭. \n\n /About to know more.", buttons=[Button.url("🤖 Updates", url="https://t.me/movievillachat"), Button.url("♥️ Source", url="https://youtube.com/channel/UCAjLSt8ARs8e9AX014hoJtQ")], link_preview=False)
 
 
 @datgbot.on(events.NewMessage(pattern="/About"))
