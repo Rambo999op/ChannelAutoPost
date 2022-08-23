@@ -43,7 +43,7 @@ async def _(event):
 
 @datgbot.on(events.NewMessage(pattern="/About"))
 async def helpp(event):
-    await event.reply(👉 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href="https://t.me/nancyji_bot">𝐍𝐚𝐧𝐜𝐲</a> \n👉 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href="https://t.me/MovieVilla99">𝐌𝐨𝐯𝐢𝐞 𝐕𝐢𝐥𝐥𝐚</a> \n👉 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹 \n👉 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱 \n👉 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄 \n👉 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"), link_preview=False)
+    await event.reply(👉 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: [Nancy](url="https://t.me/nancyji_bot") \n👉 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: [Movie Villa](url="https://t.me/MovieVilla99") \n👉 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹 \n👉 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱 \n👉 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄 \n👉 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"), link_preview=False)
 
 @datgbot.on(events.NewMessage(incoming=True, chats=frm)) 
 async def _(event): 
