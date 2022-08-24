@@ -38,12 +38,12 @@ except:
 @datgbot.on(events.NewMessage(pattern="/start"))
 async def _(event):
     ok = await datgbot(GetFullUserRequest(event.sender_id))
-    await event.reply(f"Hi `{ok.user.first_name},`\n\n**I am a channel auto forward bot. \n\n /About to know more.**", buttons=[Button.url("🤖 Updates", url="https://t.me/movievillachat"), Button.url("♥️ Source", url="https://youtube.com/channel/UCAjLSt8ARs8e9AX014hoJtQ")], link_preview=False)
+    await event.reply(f"Hi `{ok.user.first_name},`\n\n**I am a bot Of Rex 99. \n\n /About to know more.**", buttons=[Button.url("🤖 Updates", url="https://t.me/Movies_Provide_2"), Button.url("♥️ Source", url="https://t.me/MOVIES_PROVIDE")], link_preview=False)
 
 
 @datgbot.on(events.NewMessage(pattern="/About"))
 async def helpp(event):
-    await event.reply(("➜  𝙲𝚁𝙴𝙰𝚃𝙾𝚁:  [𝐍𝐚𝐧𝐜𝐲](https://t.me/nancyji_bot) \n➜  𝙲𝙷𝙰𝙽𝙽𝙴𝙻:  [𝐌𝐨𝐯𝐢𝐞 𝐕𝐢𝐥𝐥𝐚](https://t.me/MovieVilla99) \n➜  𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴:  𝙿𝚈𝚃𝙷𝙾𝙽 𝟹 \n➜  𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴:  𝙼𝙾𝙽𝙶𝙾 𝙳𝙱 \n➜  𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁:  𝙷𝙴𝚁𝙾𝙺𝚄 \n➜  𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂:  v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"), link_preview=False)
+    await event.reply(("➜  𝙲𝚁𝙴𝙰𝚃𝙾𝚁:  [𝚁𝙴𝚇](https://t.me/Rexisop99) \n➜  𝙲𝙷𝙰𝙽𝙽𝙴𝙻:  [Movies_Provide](https://t.me/MOVIES_PROVIDE) \n➜  𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴:  𝙿𝚈𝚃𝙷𝙾𝙽 𝟹 \n➜  𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴:  𝙼𝙾𝙽𝙶𝙾 𝙳𝙱 \n➜  𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁:  𝙷𝙴𝚁𝙾𝙺𝚄 \n➜  𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂:  v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"), link_preview=False)
 
 
 @datgbot.on(events.NewMessage(incoming=True, chats=frm)) 
